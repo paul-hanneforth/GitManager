@@ -1,0 +1,19 @@
+{
+  "name": "gitmanager",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "main": "./lib/index.js",
+  "bin": {
+    "gitmanager": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "Paul Hanneforth",
+  "license": "ISC",
+  "dependencies": {
+    "fileger": "^1.0.0"
+  }
+}
