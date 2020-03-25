@@ -30,3 +30,12 @@ Edit an account
 ```sh
 gitmanager edit [username] [new password]
 ```
+
+### Module
+`GitManager` can also be used as a Module.
+
+First you need to require the module
+```js
+const gitmanager = require("gitmanager")
+```
+Then you can make use of the 5 exposed functions `login`, `addAccount`, `removeAccount`, `editAccount`,`loadAccounts`
