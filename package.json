@@ -1,5 +1,5 @@
 {
-  "name": "gitmanager",
+  "name": "gitaccountmanager",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,7 +10,7 @@
   "bin": {
     "gitmanager": "./bin/index.js"
   },
-  "keywords": [],
+  "keywords": ["github", "accounts", "manager", "nodejs"],
   "author": "Paul Hanneforth",
   "license": "ISC",
   "dependencies": {
