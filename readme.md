@@ -5,7 +5,7 @@ GitManager currently only supports Windows. Support for other operating systems 
 ## Installation
 Install `GitManager`via NPM
 ```sh
-npm install -g gitmanager
+npm install -g gitaccountmanager
 ```
 
 ## Usage
