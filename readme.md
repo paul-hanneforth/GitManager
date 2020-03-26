@@ -2,6 +2,7 @@
 ### The most convenient way to switch GitHub Accounts via Terminal.
 ## Notices
 GitManager currently only supports Windows. Support for other operating systems will come soon.
+Also be aware that your passwords will be stored in plaintext on your computer.
 ## Installation
 Install `GitManager`via NPM
 ```sh
