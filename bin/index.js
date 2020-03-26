@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { login, loadAccounts, editAccount, removeAccount, addAccount } = require("./../lib/index.js")
-const { helpText, listAccountsText, switchAccountText, addAccountText, removeAccountText, editAccountText } = require("./config.js")
+const { helpText, listAccountsText, switchAccountText, addAccountText, removeAccountText, editAccountText } = require("./config.js"):
 const { File } = require("fileger");
 
 const accountsPath = __dirname + "/accounts.json"
