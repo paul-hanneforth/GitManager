@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { login, loadAccounts, editAccount, removeAccount, addAccount } = require("./../lib/index.js")
-const { helpText, listAccountsText, switchAccountText, addAccountText, removeAccountText, editAccountText } = require("./config.js"):
+const { helpText, listAccountsText, switchAccountText, addAccountText, removeAccountText, editAccountText } = require("./config.js");
 const { File } = require("fileger");
 
 const accountsPath = __dirname + "/accounts.json"
@@ -33,6 +33,7 @@ const parseArguments = async () => {
         accounts.forEach(async (account) => {
             if(account[0] == username) {
                 const success = await login(account[0], account[1]);
+                console.log(success)
                 if(success) {
                     console.log(switchAccountText.success)
                 } else {
