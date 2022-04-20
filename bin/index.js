@@ -33,7 +33,6 @@ const parseArguments = async () => {
         accounts.forEach(async (account) => {
             if(account[0] == username) {
                 const success = await login(account[0], account[1]);
-                console.log(success)
                 if(success) {
                     console.log(switchAccountText.success)
                 } else {
