@@ -3,9 +3,9 @@ const helpText = `usage: gitmanager <command> [<args>]
 gitmanager help
 gitmanager list
 gitmanager switch [username]
-gitmanager add [username] [password]
+gitmanager add [username] [personal access token]
 gitmanager remove [username]
-gitmanager edit [username, password]`
+gitmanager edit [username, personal access token]`
 
 const listAccountsText = `To switch to another account use:
 gitmanager switch [username]`
